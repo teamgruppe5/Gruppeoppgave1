@@ -1,0 +1,94 @@
+body{
+	background-image: url(img/Merchant.png);
+	background-position: fixed;
+} 
+
+#InventoryHolder{
+	text-align: top;
+	display: grid;
+	top: 20%;
+	left: 10%;
+	position: absolute;
+	border-radius: 0%;
+	background-color: rgba(128, 128, 128, 0.449);
+	height: 500px;
+	width: 450px;
+	text-align: center;
+	grid-template-columns: repeat(4, 1fr);
+	overflow: hidden;
+	border: solid;
+	
+
+}
+
+.inventory{
+	position: flex;
+	border-radius: 0%;
+	background-color: rgba(78, 77, 77, 0.425);
+	display: grid;
+	width: 109px;
+	height: 170px;
+	border: solid;
+	cursor: pointer;
+	
+
+}
+.inventory-hover{
+	background-color: rgba(150, 149, 149, 0.436);
+}
+.inventory-active{
+	background-color: rgba(185, 185, 185, 0.421);
+
+}
+
+#StoreInventory{
+	text-align: top;
+	display: grid;
+	top: 20%;
+	right: 10%;
+	position: absolute;
+	border-radius: 0%;
+	background-color: rgba(128, 128, 128, 0.449);
+	height: 500px;
+	width: 450px;
+	text-align: center;
+	grid-template-columns: repeat(4, 1fr);
+	overflow: hidden;
+	border: solid;
+	
+
+}
+
+.store{
+	position: flex;
+	border-radius: 0%;
+	background-color: rgba(78, 77, 77, 0.43);
+	display: grid;
+	width: 109px;
+	height: 170px;
+	border: solid;
+	cursor: pointer;
+
+}
+.store:hover{
+	background-color: rgba(150, 149, 149, 0.445);
+}
+.store:active{
+	background-color: rgba(185, 185, 185, 0.458);
+}
+
+#stupidBtn{
+	bottom: 8%;
+	left: 20%;
+	display: grid;
+	position: absolute;
+	text-align: center;
+	background-color: greenyellow;
+
+}
+
+
+
+.hidden{
+	display: none !important;
+}
