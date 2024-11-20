@@ -1,5 +1,7 @@
 let app = document.getElementById('app')
-let itemspictures = ["./img/coke.png"];
+let itemspictures = ["./img/coke.png", "./img/dagger.png", "./img/energy.png", "./img/gameboy.png", 
+					"./img/hamburger.png", "./img/hammer.png", "./img/hand-cuffs.png", "./img/hatchet.png",
+					"./img/molotov.png", "./img/samsung-s8.png", "./img/sandwich.png", "./img/diamond.png"];
 let btnStatus = "Close Inventory"
 
 //view
