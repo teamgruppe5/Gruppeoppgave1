@@ -55,7 +55,7 @@ function closeInventory(){
 }
 let index = 0
 function buyItem(pictureID){
-	if(boughtArray[index] == "./img/empty.png" && coins>=1){
+	if(boughtArray[index] == "./img/Empty.png" && coins>=1){
 	boughtArray[index] = itemspictures[pictureID]
 	coins--
     }else if (coins == 0){
