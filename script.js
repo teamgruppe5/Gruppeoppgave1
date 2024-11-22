@@ -2,7 +2,7 @@ let app = document.getElementById('app')
 let itemspictures = ["./img/coke.png", "./img/dagger.png", "./img/energy.png", "./img/gameboy.png", 
 					"./img/hamburger.png", "./img/hammer.png", "./img/hand-cuffs.png", "./img/hatchet.png",
 					"./img/molotov.png", "./img/samsung-s8.png", "./img/sandwich.png", "./img/diamond.png"];
-let btnStatus = "Close Inventory"
+let btnStatus = "Close Inventory";
 let boughtArray = ["./img/empty.png","./img/empty.png","./img/empty.png","./img/empty.png","./img/empty.png","./img/empty.png","./img/empty.png","./img/empty.png","./img/empty.png","./img/empty.png","./img/empty.png","./img/empty.png"];
 let coins = 10;
 
@@ -53,6 +53,7 @@ function closeInventory(){
 	stupidBtn.innerHTML = 'Close Inventory'
 	}
 }
+
 let index = 0
 function buyItem(pictureID){
 	if(boughtArray[index] == "./img/empty.png" && coins>=1){
